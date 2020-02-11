@@ -1,0 +1,1 @@
+timeLimit:10.000000,duration:10.000000,distanceInMeters:30.000000
