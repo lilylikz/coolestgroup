@@ -25,7 +25,7 @@ if __name__ == "__main__":
         count +=6
         storeVal = DataStore(dataTemp[0], dataTemp[1], dataTemp[2], dataTemp[3], dataTemp[4], dataTemp[5])
         storeList.append(storeVal)
-        print(storeVal.convertToCSVStyle())
+        # print(storeVal.convertToCSVStyle())
 
     file.close()
     
