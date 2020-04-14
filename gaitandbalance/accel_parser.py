@@ -26,11 +26,11 @@ if __name__ == "__main__":
 
     file.close()
     
-csv = open(name.replace(".txt", "")+".csv", 'w')
-csv.write("Timestamp, X, Y, Z")
-csv.write("\n")
-for data in storeList:
-    csv.write(data.convertToCSVStyle())
+    csv = open(name.replace(".txt", "")+".csv", 'w')
+    csv.write("Timestamp, X, Y, Z")
     csv.write("\n")
-csv.close()
+    for data in storeList:
+        csv.write(data.convertToCSVStyle())
+        csv.write("\n")
+    csv.close()
        
