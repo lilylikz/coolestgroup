@@ -1,0 +1,1 @@
+startTime:124394.355724;endTime:124395.196882;color:BLUE;text:GREEN;colorSelected:BLUE
